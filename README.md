@@ -1,4 +1,3 @@
-Hacker-Garden
-=============
+# Honeycomb
 
-Statement, and laws of the Hacker Garden
+Statement, and laws of Honeycomb
