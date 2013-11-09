@@ -1,3 +1,3 @@
 # Honeycomb
 
-Statement, and laws of Honeycomb
+We want to be a self-enabled, independent community of creatives.
