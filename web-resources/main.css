@@ -1,0 +1,146 @@
+*, *:after, *:before {
+  display: block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  line-height: 1.5;
+  vertical-align: baseline;
+}
+
+head, head * {
+  display: none;
+}
+
+html {
+  background: #d5dbe0;
+  color: #8b91a0;
+  font-family: 'Roboto';
+  font-weight: 500;
+  min-width: 38em;
+}
+
+ol, ul { list-style: disk outside none; }
+
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+h1 { font-size: 1.8em; }
+h2 { font-size: 1.8em; }
+h3 { font-size: 1.7em; }
+h4 { font-size: 1.6em; }
+h5 { font-size: 1.5em; }
+h6 { font-size: 1.4em; }
+p  { font-size: 1.2em; }
+
+small { 
+  display: inline;
+  font-weight: 300; 
+}
+
+a {
+  display: inline;
+  text-decoration: none;
+  color: #40444c;
+}
+
+a:hover {
+  color: #8b91a0;
+}
+
+::selection { 
+  text-shadow: none; 
+  background: #fd0;
+  color: #8b91a0;
+}
+::-moz-selection {
+  text-shadow: none;
+  background: #fd0;
+  color: #8b91a0;
+}
+
+nav.navigation {
+  max-width: 60em;
+  margin: 0 auto;
+  padding: 2em 2em;
+}
+
+nav.navigation .logo:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 10em;
+  background: #eff2f4;
+  z-index: -1;
+}
+
+nav.navigation .links {
+  float: right;
+  margin: .8em 0;
+}
+
+nav.navigation .links a {
+  color: #8b91a0;
+  margin: 0 1em;
+  text-transform: lowercase;
+}
+
+nav.navigation .links a:hover {
+  color: #40444c;
+}
+
+nav.navigation .logo {
+  float: left;
+  text-indent: -99999em;
+  height: 3em;
+  width: 100%;
+  max-width: 15em;
+  background: transparent url('/web-resources/logo.png') no-repeat;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+.btn {
+  font-weight: 700;
+  background: #40444c;
+  color: #d5dbe0;
+  padding: 1em 1em;
+  border-bottom: .2em solid #32353b;
+}
+
+.btn:hover {
+  color: #d5dbe0;
+  color: #fd0;
+  /*background-color: #32353b;*/
+}
+
+footer {
+  text-align: center;
+}
+
+.clearfix { *zoom: 1; }
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}

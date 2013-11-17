@@ -1,0 +1,52 @@
+header.hero {
+  position: relative;
+  background: #40444c url('/web-resources/hero.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  padding: 10em 2em;
+  color: #fd0;
+  font-weight: 700;
+  text-align: center;
+}
+
+header.hero h2 {
+  font-size: 2em;
+  max-width: 25rem;
+  margin: 0 auto;
+}
+
+header.hero h2:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 1em;
+  bottom: 1em;
+  left: 2em;
+  right: 2em;
+  background: transparent url('/web-resources/hexagon-outline.svg') no-repeat center center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+#description {
+  max-width: 60rem;
+  margin: 1.5em auto 0;
+  padding: 1.5em 2em;
+  text-align: center;
+}
+
+.more {
+  text-align: center;
+  margin-left: -9.5em;
+  position: absolute;
+  left: 50%;
+}
+
+footer {
+  margin: 8em 2em 2em;
+}
