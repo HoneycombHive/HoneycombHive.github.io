@@ -10,12 +10,14 @@ header.hero {
   color: #fd0;
   font-weight: 700;
   text-align: center;
+  z-index: -1;
 }
 
 header.hero h2 {
   font-size: 2em;
   max-width: 25rem;
   margin: 0 auto;
+  z-index: 1;
 }
 
 header.hero h2:before {
