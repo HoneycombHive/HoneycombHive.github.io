@@ -85,7 +85,7 @@ nav.navigation .logo:before {
   left: 0;
   right: 0;
   width: 100%;
-  height: 10em;
+  height: 7.08em;
   background: #eff2f4;
   z-index: -1;
 }
@@ -118,6 +118,28 @@ nav.navigation .logo {
   background-size: contain;
 }
 
+.hero {
+  position: relative;
+  color: #ffffff;
+  background: #40444c no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  padding: 10em 2em;
+  font-weight: 700;
+  text-align: center;
+  z-index: -1;
+}
+
+.hero h2 {
+  font-size: 2em;
+  max-width: 25rem;
+  margin: 0 auto;
+  z-index: 1;
+}
+
 .btn {
   font-weight: 700;
   background: #40444c;
@@ -134,7 +156,10 @@ nav.navigation .logo {
 
 footer {
   text-align: center;
+  margin: 2em 2em;
 }
+
+/* post css */
 
 .clearfix { *zoom: 1; }
 .clearfix:before, .clearfix:after {

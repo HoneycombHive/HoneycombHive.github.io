@@ -1,26 +1,9 @@
-header.hero {
-  position: relative;
-  background: #40444c url('/web-resources/hero.jpg') no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  width: 100%;
-  padding: 10em 2em;
+.hero {
+  background-image: url('/web-resources/hero.jpg');
   color: #fd0;
-  font-weight: 700;
-  text-align: center;
-  z-index: -1;
 }
 
-header.hero h2 {
-  font-size: 2em;
-  max-width: 25rem;
-  margin: 0 auto;
-  z-index: 1;
-}
-
-header.hero h2:before {
+.hero h2:before {
   content: " ";
   display: block;
   position: absolute;
@@ -37,7 +20,7 @@ header.hero h2:before {
 
 #description {
   max-width: 60rem;
-  margin: 1.5em auto 0;
+  margin: 0 auto;
   padding: 1.5em 2em;
   text-align: center;
 }
@@ -49,6 +32,8 @@ header.hero h2:before {
   left: 50%;
 }
 
-footer {
-  margin: 8em 2em 2em;
+footer:before {
+  content: " ";
+  display: block;
+  margin: 6em;
 }
