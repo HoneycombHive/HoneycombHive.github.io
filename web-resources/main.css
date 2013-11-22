@@ -16,10 +16,28 @@ head, head * {
   display: none;
 }
 
+@font-face {
+  font-family: 'Intro';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Intro Regular Alt')
+     , local('Intro Regular')
+     , url('/web-resources/Intro-RegularAlt.woff') format('woff');
+}
+/*
+@font-face {
+  font-family: 'Intro';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Intro Bold Alt')
+     , local('Intro Bold')
+     , url('/web-resources/Intro-BoldAlt.woff') format('woff');
+}
+*/
 html {
   background: #d5dbe0;
   color: #8b91a0;
-  font-family: 'Roboto';
+  font-family: 'Intro', Georgia;
   font-weight: 500;
   min-width: 38em;
 }
@@ -47,7 +65,7 @@ p  { font-size: 1.2em; }
 
 small { 
   display: inline;
-  font-weight: 300; 
+  font-size: .8em; 
 }
 
 a {
@@ -142,6 +160,7 @@ nav.navigation .logo {
 
 .btn {
   font-weight: 700;
+  font-size: .9em;
   background: #40444c;
   color: #d5dbe0;
   padding: 1em 1em;
