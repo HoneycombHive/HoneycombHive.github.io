@@ -20,9 +20,9 @@ head, head * {
   font-family: 'Intro';
   font-style: normal;
   font-weight: 500;
-  src: local('Intro Regular Alt')
-     , local('Intro Regular')
-     , url('/web-resources/Intro-RegularAlt.woff') format('woff');
+  src: local('Intro Book Alt')
+     , local('Intro Book')
+     , url('/web-resources/Intro-Book-Alt.woff') format('woff');
 }
 /*
 @font-face {
@@ -37,7 +37,7 @@ head, head * {
 html {
   background: #d5dbe0;
   color: #8b91a0;
-  font-family: 'Intro', Georgia;
+  font-family: Arial, sans-serif;
   font-weight: 500;
   min-width: 38em;
 }
@@ -56,16 +56,16 @@ table {
 }
 
 h1 { font-size: 1.8em; }
-h2 { font-size: 1.8em; }
+h2 { font-size: 1.8em; font-family: 'Intro'; }
 h3 { font-size: 1.7em; }
 h4 { font-size: 1.6em; }
 h5 { font-size: 1.5em; }
 h6 { font-size: 1.4em; }
-p  { font-size: 1.2em; }
+p  { font-size: 0.95em; line-height: 1.8; word-spacing: .16em; }
 
 small { 
   display: inline;
-  font-size: .8em; 
+  font-size: .9em; 
 }
 
 a {
@@ -103,7 +103,7 @@ nav.navigation .logo:before {
   left: 0;
   right: 0;
   width: 100%;
-  height: 7.08em;
+  height: 7.2em;
   background: #eff2f4;
   z-index: -1;
 }
@@ -116,6 +116,7 @@ nav.navigation .links {
 nav.navigation .links a {
   color: #8b91a0;
   margin: 0 1em;
+  font-family: 'Intro';
   text-transform: lowercase;
 }
 
@@ -151,20 +152,33 @@ nav.navigation .logo {
   z-index: -1;
 }
 
-.hero h2 {
-  font-size: 2em;
+.hero p,
+.hero h2,
+.hero h3, 
+.hero h4, 
+.hero h5, 
+.hero h6 {
   max-width: 25rem;
   margin: 0 auto;
   z-index: 1;
 }
 
+.hero h2 { font-size: 2em; }
+.hero h3 { font-size: 1.85em; }
+.hero h4 { font-size: 1.7em; }
+.hero h5 { font-size: 1.55em; }
+.hero h6 { font-size: 1.4em; }
+
+.hero p { margin: 1em auto; line-height: 1.6; }
+
 .btn {
+  font-family: 'Intro';
   font-weight: 700;
   font-size: .9em;
   background: #40444c;
   color: #d5dbe0;
   padding: 1em 1em;
-  border-bottom: .2em solid #32353b;
+  border-bottom: .33em solid #32353b;
 }
 
 .btn:hover {
@@ -173,7 +187,16 @@ nav.navigation .logo {
   /*background-color: #32353b;*/
 }
 
+body > section {
+  position: relative;
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 2.6em 2em;
+  text-align: center;
+}
+
 footer {
+  font-family: 'Intro';
   text-align: center;
   margin: 2em 2em;
 }

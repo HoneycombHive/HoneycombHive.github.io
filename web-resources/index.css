@@ -18,16 +18,10 @@
   background-size: contain;
 }
 
-#description {
-  max-width: 60rem;
-  margin: 0 auto;
-  padding: 1.5em 2em;
-  text-align: center;
-}
-
-.more {
+#description .btn {
   text-align: center;
   margin-left: -9.5em;
+  margin-top: 2em;
   position: absolute;
   left: 50%;
 }
