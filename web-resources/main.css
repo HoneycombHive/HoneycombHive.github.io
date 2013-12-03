@@ -1,0 +1,204 @@
+*, *:after, *:before {
+  display: block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  line-height: 1.5;
+  vertical-align: baseline;
+}
+
+head, head * {
+  display: none;
+}
+
+@font-face {
+  font-family: 'Intro';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Intro Book Alt')
+     , local('Intro Book')
+     , url('/Honeycomb/web-resources/Intro-Book-Alt.woff') format('woff');
+}
+
+html {
+  background: #d5dbe0;
+  color: #8b91a0;
+  font-family: Arial, sans-serif;
+  font-weight: 500;
+  min-width: 38em;
+}
+
+ol, ul { list-style: disk outside none; }
+
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+h1 { font-size: 1.8em; }
+h2 { font-size: 1.8em; font-family: 'Intro'; }
+h3 { font-size: 1.7em; }
+h4 { font-size: 1.6em; }
+h5 { font-size: 1.5em; }
+h6 { font-size: 1.4em; }
+p  { font-size: 0.95em; line-height: 1.8; word-spacing: .16em; }
+
+small { 
+  display: inline;
+  font-size: .9em; 
+}
+
+a {
+  display: inline;
+  text-decoration: none;
+  color: #40444c;
+}
+
+a:hover {
+  color: #8b91a0;
+}
+
+::selection { 
+  text-shadow: none; 
+  background: #fd0;
+  color: #8b91a0;
+}
+::-moz-selection {
+  text-shadow: none;
+  background: #fd0;
+  color: #8b91a0;
+}
+
+nav.navigation {
+  max-width: 60em;
+  margin: 0 auto;
+  padding: 2em 2em;
+}
+
+nav.navigation .logo:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 7.2em;
+  background: #eff2f4;
+  z-index: -1;
+}
+
+nav.navigation .links {
+  float: right;
+  margin: .8em 0;
+}
+
+nav.navigation .links a {
+  color: #8b91a0;
+  margin: 0 1em;
+  font-family: 'Intro';
+  text-transform: lowercase;
+}
+
+nav.navigation .links a:hover {
+  color: #40444c;
+}
+
+nav.navigation .logo {
+  float: left;
+  text-indent: -99999em;
+  height: 3em;
+  width: 100%;
+  max-width: 15em;
+  background: transparent url('/Honeycomb/web-resources/logo.png') no-repeat;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+.hero {
+  position: relative;
+  color: #ffffff;
+  background: #40444c no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  padding: 10em 2em;
+  font-weight: 700;
+  text-align: center;
+  z-index: -1;
+}
+
+.hero p,
+.hero h2,
+.hero h3, 
+.hero h4, 
+.hero h5, 
+.hero h6 {
+  max-width: 25rem;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+.hero h2 { font-size: 2em; }
+.hero h3 { font-size: 1.85em; }
+.hero h4 { font-size: 1.7em; }
+.hero h5 { font-size: 1.55em; }
+.hero h6 { font-size: 1.4em; }
+
+.hero p { max-width: 40rem; margin: 1em auto; line-height: 1.6; }
+
+.btn {
+  font-family: 'Intro';
+  font-weight: 700;
+  font-size: .9em;
+  background: #40444c;
+  color: #d5dbe0;
+  padding: 1em 1em;
+  border-bottom: .33em solid #32353b;
+}
+
+.btn:hover {
+  color: #d5dbe0;
+  color: #fd0;
+  /*background-color: #32353b;*/
+}
+
+body > section {
+  position: relative;
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 2.6em 2em;
+  text-align: center;
+}
+
+footer {
+  font-family: 'Intro';
+  text-align: center;
+  margin: 2em 2em;
+}
+
+/* post css */
+
+.clearfix { *zoom: 1; }
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}

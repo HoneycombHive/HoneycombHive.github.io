@@ -1,0 +1,33 @@
+.hero {
+  background-image: url('/Honeycomb/web-resources/hero.jpg');
+  color: #fd0;
+}
+
+.hero h2:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 1em;
+  bottom: 1em;
+  left: 2em;
+  right: 2em;
+  background: transparent url('/Honeycomb/web-resources/hexagon-outline.svg') no-repeat center center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+#description .btn {
+  text-align: center;
+  margin-left: -9.5em;
+  margin-top: 2em;
+  position: absolute;
+  left: 50%;
+}
+
+footer:before {
+  content: " ";
+  display: block;
+  margin: 6em;
+}
