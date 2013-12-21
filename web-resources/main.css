@@ -22,7 +22,7 @@ head, head * {
   font-weight: 500;
   src: local('Intro Book Alt')
      , local('Intro Book')
-     , url('/Honeycomb/web-resources/Intro-Book-Alt.woff') format('woff');
+     , url('/web-resources/Intro-Book-Alt.woff') format('woff');
 }
 
 html {
@@ -121,7 +121,7 @@ nav.navigation .logo {
   height: 3em;
   width: 100%;
   max-width: 15em;
-  background: transparent url('/Honeycomb/web-resources/logo.png') no-repeat;
+  background: transparent url('/web-resources/logo.png') no-repeat;
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
