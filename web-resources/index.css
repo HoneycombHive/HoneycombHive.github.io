@@ -1,5 +1,5 @@
 .hero {
-  background-image: url('/Honeycomb/web-resources/hero.jpg');
+  background-image: url('/web-resources/hero.jpg');
   color: #fd0;
 }
 
@@ -11,7 +11,7 @@
   bottom: 1em;
   left: 2em;
   right: 2em;
-  background: transparent url('/Honeycomb/web-resources/hexagon-outline.svg') no-repeat center center;
+  background: transparent url('/web-resources/hexagon-outline.svg') no-repeat center center;
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
